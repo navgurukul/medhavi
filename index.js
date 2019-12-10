@@ -74,10 +74,15 @@ const feedbackableStages = [
   "pendingTravelPlanning",
 ]
 
+const permissions = {
+  "updateStage" : ["s", "saakshi19"]
+}
+
 module.exports = {
   allStages: allStages,
   studentStages: Object.keys(allStages),
   feedbackableStages: feedbackableStages,
+  permissions: permissions,
   feedbackableStagesWithTitles : feedbackableStages.map(x => { return {x: allStages[x]} }),
   status: { pass: "Passed", failed: "Failed", pending: "Pending", forReview: "For Review", done: "Done" }
 }
