@@ -71,6 +71,7 @@ const feedbackableStages = [
   'becameDisIntersested',
   'disqualifiedUnreachable',
   'pendingTravelPlanning',
+  'pendingParentConversation'
 ];
 
 const permissions = {
