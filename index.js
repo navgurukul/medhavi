@@ -37,6 +37,7 @@ const allStages = {
 
   // probation etc. once when the student has joined navgurukul
   probation: 'Probation',
+  deferredJoining: 'Deferred Joining', 
   finallyJoined: 'Joined',
   droppedOut: 'Dropped Out',
   sentBackAfterProbation: 'Probation Not Cleared',
@@ -54,6 +55,7 @@ const allStages = {
   needAction: 'Need Action',
   demo: 'Not Clear???',
   caughtCheating: 'Caught Cheating',
+  tuitionGroup: 'Tution Group',
 
   requestCallback: 'Requested Callback',
   pendingCallbackForQuery: 'Pending Callback',
@@ -71,7 +73,9 @@ const feedbackableStages = [
   'becameDisIntersested',
   'disqualifiedUnreachable',
   'pendingTravelPlanning',
-  'pendingParentConversation'
+  'pendingParentConversation',
+  'tuitionGroup',
+  'deferredJoining'
 ];
 
 const permissions = {
