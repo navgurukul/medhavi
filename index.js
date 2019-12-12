@@ -37,7 +37,7 @@ const allStages = {
 
   // probation etc. once when the student has joined navgurukul
   probation: 'Probation',
-  deferredJoining: 'Deferred Joining', 
+  deferredJoining: 'Deferred Joining',
   finallyJoined: 'Joined',
   droppedOut: 'Dropped Out',
   sentBackAfterProbation: 'Probation Not Cleared',
@@ -75,12 +75,12 @@ const feedbackableStages = [
   'pendingTravelPlanning',
   'pendingParentConversation',
   'tuitionGroup',
-  'deferredJoining'
+  'deferredJoining',
 ];
 
 const permissions = {
-  "updateStage" : ["s", "saakshi19"]
-}
+  updateStage: ['s', 'saakshi19'],
+};
 
 module.exports = {
   allStages: allStages,
