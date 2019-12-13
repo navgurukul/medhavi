@@ -79,7 +79,7 @@ const feedbackableStages = [
 ];
 
 const permissions = {
-  updateStage: ['s', 'saakshi19'],
+  updateStage: ['s', 'saakshi19', 'gnaneshwari19'],
 };
 
 module.exports = {
