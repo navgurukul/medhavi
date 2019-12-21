@@ -45,6 +45,7 @@ const allStages = {
   // is not reachable
   becameDisIntersested: 'Became Disinterested',
   disqualifiedUnreachable: 'Can`t reach Student',
+  notReachable: 'Number Unreachable',
 
   // diversity based decision
   disqualifiedAfterDiversityFilter: 'Diversity Not Cleared',
@@ -76,6 +77,7 @@ const feedbackableStages = [
   'pendingParentConversation',
   'tuitionGroup',
   'deferredJoining',
+  'notReachable'
 ];
 
 const permissions = {
