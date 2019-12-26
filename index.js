@@ -76,6 +76,45 @@ const feedbackableStages = [
   'requestCallback',
 ];
 
+const feedbackableStagesData = {
+  pendingEnglishInterview: {
+    deadline: 48,
+    status: ['passed', 'failed', 'review', 'unreachable', 'uninterested']
+  },
+  pendingAlgebraInterview: {
+    deadline: 60,
+    status: ['passed', 'failed', 'review', 'unreachable', 'uninterested']
+  },
+  pendingAlgebraReInterview: {
+    deadline: 60,
+    status: ['passed', 'failed', 'review', 'unreachable', 'uninterested']
+  },
+  pendingCultureFitInterview: {
+    deadline: 48,
+    status: ['perfectFit', 'failed', 'edgeCase', 'needBased', 'review', 'unreachable', 'uninterested']
+  },
+  pendingTravelPlanning: {
+    deadline: 24,
+    status: ['finalised', 'reimbursement', 'failed', 'unreachable', 'uninterested']
+  },
+  pendingParentConversation: {
+    deadline: 24,
+    status: ['passed', 'failed', 'review', 'unreachable', 'uninterested']
+  },
+  becameDisIntersested: {
+    deadline: 60,
+    status: ['reason', 'noReason', 'unreachable']
+  },
+  tuitionGroup: {
+    deadline: 24,
+    status: ['added', 'uninteresetd', 'unreachable']
+  },
+  requestCallback: {
+    deadline: 60,
+    status: ['resolved', 'informedTeam', 'unreachable']
+  },
+}
+
 const permissions = {
   updateStage: ['s', 'saakshi19', 'gnaneshwari19', 'pralhad18', 'a'],
 };
