@@ -64,17 +64,17 @@ const allStages = {
   queryResolvedAfterCallback: 'Query Resolved After CallBack',
 };
 
-const feedbackableStages = [
-  'pendingEnglishInterview',
-  'pendingAlgebraReInterview',
-  'pendingAlgebraInterview',
-  'pendingCultureFitInterview',
-  'pendingTravelPlanning',
-  'pendingParentConversation',
-  'becameDisIntersested',
-  'tuitionGroup',
-  'requestCallback',
-];
+const endStages = [
+  'deferredJoining',
+  'notReachable',
+  'testFailed',
+  'possibleDuplicate',
+  'parentConversationFail',
+  'finalisedTravelPlans',
+  'queryResolvedAfterCallback',
+  'cultureFitInterviewFail',
+  'englishInterviewFail'
+]
 
 const feedbackableStagesData = {
   pendingEnglishInterview: {
@@ -115,14 +115,17 @@ const feedbackableStagesData = {
   },
 }
 
+const feedbackableStages = Object.keys(feedbackableStagesData)
+
 const permissions = {
-  updateStage: ['s', 'saakshi19', 'gnaneshwari19', 'pralhad18', 'a'],
+  updateStage: ['s', 'saakshi19', 'gnaneshwari19', 'pralhad18', 'a']
 };
 
 module.exports = {
   allStages: allStages,
   studentStages: Object.keys(allStages),
   feedbackableStages: feedbackableStages,
+  feedbackableStagesData: feedbackableStagesData,
   permissions: permissions,
   feedbackableStagesWithTitles: feedbackableStages.map((x) => ({ x: allStages[x] })),
   status: {
