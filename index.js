@@ -93,4 +93,8 @@ module.exports = {
   status: {
     pass: 'Passed', failed: 'Failed', pending: 'Pending', forReview: 'For Review', done: 'Done',
   },
+  caste: { obc: 1, scSt: 2, general: 3, others: 4, },
+  religon: { hindu: 1, islam: 2, sikh: 3, jain: 4, christian: 5, others: 6, },
+  qualification: { lessThan10th: 1, class10th: 2, class12th: 3, graduate: 4, },
+  currentStatus: { nothing: 1, job: 2, study: 3, other: 4, },
 };
