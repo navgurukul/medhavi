@@ -79,7 +79,7 @@ const endStages = [
 const feedbackableStagesData = {
   pendingEnglishInterview: {
     deadline: 48,
-    status: ['passed', 'failed', 'review', 'unreachable', 'uninterested']
+    status: ['passed', 'failed', 'review', 'unreachable', 'uninterested', 'edgeCase']
   },
   pendingAlgebraInterview: {
     deadline: 60,
@@ -115,7 +115,7 @@ const feedbackableStagesData = {
   },
 }
 
-const feedbackableStages = Object.keys(feedbackableStagesData)
+const feedbackableStages = Object.keys(feedbackableStagesData)  
 
 const permissions = {
   updateStage: ['s', 'saakshi19', 'gnaneshwari19', 'pralhad18', 'a']
