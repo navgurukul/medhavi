@@ -79,7 +79,7 @@ const endStages = [
 const feedbackableStagesData = {
   pendingEnglishInterview: {
     deadline: 48,
-    status: ['passed', 'failed', 'review', 'unreachable', 'uninterested', 'edgeCase']
+    status: ['passed', 'failed', 'review', 'edgeCase', 'unreachable', 'uninterested']
   },
   pendingAlgebraInterview: {
     deadline: 60,
