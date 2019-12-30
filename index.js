@@ -74,51 +74,51 @@ const endStages = [
   'queryResolvedAfterCallback',
   'cultureFitInterviewFail',
   'englishInterviewFail',
-]
+];
 
 const feedbackableStagesData = {
   pendingEnglishInterview: {
     deadline: 48,
-    status: ['passed', 'failed', 'review', 'edgeCase', 'unreachable', 'uninterested']
+    status: ['passed', 'failed', 'review', 'edgeCase', 'unreachable', 'uninterested'],
   },
   pendingAlgebraInterview: {
     deadline: 60,
-    status: ['passed', 'failed', 'review', 'unreachable', 'uninterested']
+    status: ['passed', 'failed', 'review', 'unreachable', 'uninterested'],
   },
   pendingAlgebraReInterview: {
     deadline: 60,
-    status: ['passed', 'failed', 'review', 'unreachable', 'uninterested']
+    status: ['passed', 'failed', 'review', 'unreachable', 'uninterested'],
   },
   pendingCultureFitInterview: {
     deadline: 48,
-    status: ['perfectFit', 'failed', 'edgeCase', 'needBased', 'review', 'unreachable', 'uninterested']
+    status: ['perfectFit', 'failed', 'edgeCase', 'needBased', 'review', 'unreachable', 'uninterested'],
   },
   pendingTravelPlanning: {
     deadline: 24,
-    status: ['finalised', 'reimbursement', 'failed', 'unreachable', 'uninterested']
+    status: ['finalised', 'reimbursement', 'failed', 'unreachable', 'uninterested'],
   },
   pendingParentConversation: {
     deadline: 24,
-    status: ['passed', 'failed', 'review', 'unreachable', 'uninterested']
+    status: ['passed', 'failed', 'review', 'unreachable', 'uninterested'],
   },
   becameDisIntersested: {
     deadline: 60,
-    status: ['reason', 'noReason', 'unreachable']
+    status: ['reason', 'noReason', 'unreachable'],
   },
   tuitionGroup: {
     deadline: 24,
-    status: ['added', 'uninteresetd', 'unreachable']
+    status: ['added', 'uninteresetd', 'unreachable'],
   },
   requestCallback: {
     deadline: 60,
-    status: ['resolved', 'informedTeam', 'unreachable']
+    status: ['resolved', 'informedTeam', 'unreachable'],
   },
-}
+};
 
-const feedbackableStages = Object.keys(feedbackableStagesData)
+const feedbackableStages = Object.keys(feedbackableStagesData);
 
 const permissions = {
-  updateStage: ['s', 'saakshi19', 'gnaneshwari19', 'pralhad18', 'a']
+  updateStage: ['s', 'saakshi19', 'gnaneshwari19', 'pralhad18', 'a'],
 };
 
 module.exports = {
@@ -130,5 +130,17 @@ module.exports = {
   feedbackableStagesWithTitles: feedbackableStages.map((x) => ({ x: allStages[x] })),
   status: {
     pass: 'Passed', failed: 'Failed', pending: 'Pending', forReview: 'For Review', done: 'Done',
+  },
+  caste: {
+    obc: 1, scSt: 2, general: 3, others: 4,
+  },
+  religon: {
+    hindu: 1, islam: 2, sikh: 3, jain: 4, christian: 5, others: 6,
+  },
+  qualification: {
+    lessThan10th: 1, class10th: 2, class12th: 3, graduate: 4,
+  },
+  currentStatus: {
+    nothing: 1, job: 2, study: 3, other: 4,
   },
 };
