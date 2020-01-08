@@ -2,8 +2,6 @@ const allStages = {
   // related to the mcq test
   enrolmentKeyGenerated: 'Enrolment Key Generated',
   basicDetailsEntered: 'Basic Details Entered',
-  completedTest: 'Completed Test',
-  completedTestWithDetails: 'Completed Test',
   testPassed: 'Test Passed', // REMOVE_ME
   testFailed: 'Test Failed',
 
