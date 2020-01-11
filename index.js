@@ -110,7 +110,7 @@ const feedbackableStagesData = {
   requestCallback: {
     deadline: 60,
     status: ['resolved', 'informedTeam', 'unreachable'],
-  },
+  }
 };
 
 const feedbackableStages = Object.keys(feedbackableStagesData);
