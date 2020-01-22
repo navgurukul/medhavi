@@ -59,7 +59,7 @@ const allStages = {
   requestCallback: 'Requested Callback',
   // pendingCallbackForQuery: 'Pending Callback',
   // forReviewCallbackQueryResolved: 'For Review CallbackQuery Resolved',
-  queryResolvedAfterCallback: 'Query Resolved After CallBack'
+  queryResolvedAfterCallback: 'Query Resolved After CallBack',
 };
 
 const endStages = [
