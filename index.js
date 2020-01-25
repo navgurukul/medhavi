@@ -59,7 +59,7 @@ const allStages = {
   requestCallback: 'Requested Callback',
   // pendingCallbackForQuery: 'Pending Callback',
   // forReviewCallbackQueryResolved: 'For Review CallbackQuery Resolved',
-  queryResolvedAfterCallback: 'Query Resolved After CallBack'
+  queryResolvedAfterCallback: 'Query Resolved After CallBack',
 };
 
 const endStages = [
@@ -110,7 +110,7 @@ const feedbackableStagesData = {
   requestCallback: {
     deadline: 60,
     status: ['resolved', 'informedTeam', 'unreachable'],
-  }
+  },
 };
 
 const feedbackableStages = Object.keys(feedbackableStagesData);
