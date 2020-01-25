@@ -116,7 +116,7 @@ const feedbackableStagesData = {
 const feedbackableStages = Object.keys(feedbackableStagesData);
 
 const permissions = {
-  updateStage: ['s', 'saakshi19', 'gnaneshwari19', 'pralhad18', 'a'],
+  updateStage: ['s', 'saakshi19', 'gnaneshwari19', 'pralhad18', 'a', 'nitesh', 'aman19', 'rahit19'],
 };
 
 module.exports = {
