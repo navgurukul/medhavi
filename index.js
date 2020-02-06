@@ -141,4 +141,5 @@ module.exports = {
   currentStatus: {
     nothing: 1, job: 2, study: 3, other: 4,
   },
+  endStages: endStages,
 };
