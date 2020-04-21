@@ -2,8 +2,11 @@ const allStages = {
   // related to the mcq test
   enrolmentKeyGenerated: 'Enrolment Key Generated',
   basicDetailsEntered: 'Basic Details Entered',
-  testPassed: 'Test Passed', // REMOVE_ME
-  testFailed: 'Test Failed',
+  // english interviews
+  pendingEnglishInterview: 'English Interview Pending',
+  // forReviewEnglishInterview: 'English Interview For Review',
+  englishInterviewFail: 'English Interview Failed',
+  // englishInterviewWaitlisted: 'English Interview Waitlisted',
 
   // algebra interviews
   pendingAlgebraInterview: 'Algebra Interview Pending',
@@ -11,12 +14,6 @@ const allStages = {
   // forReviewAlgebraInterviewDone: 'Algebra Interview For Review',
   algebraInterviewFail: 'Algebra Interview Failed',
   // algebraInterviewWaitlisted: 'Algebra Interview Waitlisted',
-
-  // english interviews
-  pendingEnglishInterview: 'English Interview Pending',
-  // forReviewEnglishInterview: 'English Interview For Review',
-  englishInterviewFail: 'English Interview Failed',
-  // englishInterviewWaitlisted: 'English Interview Waitlisted',
 
   // culture fit interviews
   pendingCultureFitInterview: 'Culture Fit Interview Pending',
@@ -60,6 +57,7 @@ const allStages = {
   // pendingCallbackForQuery: 'Pending Callback',
   // forReviewCallbackQueryResolved: 'For Review CallbackQuery Resolved',
   queryResolvedAfterCallback: 'Query Resolved After CallBack',
+  testFailed: 'Test Failed',
 };
 
 const endStages = [
@@ -116,7 +114,7 @@ const feedbackableStagesData = {
 const feedbackableStages = Object.keys(feedbackableStagesData);
 
 const permissions = {
-  updateStage: ['s', 'saakshi19', 'gnaneshwari19', 'alisha', 'nilam18', 'pralhad18', 'a', 'nitesh', 'aman19', 'rahit19'],
+  updateStage: ['s', 'saakshi19', 'gnaneshwari19', 'alisha', 'nilam18', 'pralhad18', 'a', 'nitesh', 'aman19', 'rahit19', 'pralhad'],
 };
 
 module.exports = {
