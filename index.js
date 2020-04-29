@@ -117,6 +117,8 @@ const permissions = {
   updateStage: ['r', 's', 'saakshi19', 'gnaneshwari19', 'alisha', 'nilam18', 'pralhad18', 'a', 'nitesh', 'aman19', 'rahit19', 'pralhad'],
 };
 
+const superAdmin=['a@navgurukul.org','s@navgurukul.org','r@navgurukul.org']
+
 module.exports = {
   allStages: allStages,
   studentStages: Object.keys(allStages),
@@ -140,4 +142,5 @@ module.exports = {
     nothing: 1, job: 2, study: 3, other: 4,
   },
   endStages: endStages,
+  superAdmin,
 };
