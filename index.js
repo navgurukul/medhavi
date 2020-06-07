@@ -117,6 +117,7 @@ const permissions = {
   updateStage: ['r', 's', 'saakshi19', 'gnaneshwari19', 'alisha', 'nilam', 'a', 'nitesh', 'aman19', 'rahit19', 'pralhad', 'komal'],
 };
 
+const allTagsForOnlineClass = [ "interviewPreparationClasses", "programmingClasses", "duplicate"]
 module.exports = {
   allStages: allStages,
   studentStages: Object.keys(allStages),
@@ -140,4 +141,5 @@ module.exports = {
     nothing: 1, job: 2, study: 3, other: 4,
   },
   endStages: endStages,
+  allTagsForOnlineClass: allTagsForOnlineClass
 };
