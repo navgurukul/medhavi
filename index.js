@@ -118,6 +118,7 @@ const permissions = {
 };
 
 const allTagsForOnlineClass = [ "interviewPreparationClasses", "programmingClasses", "duplicate"]
+const contact_type = ['whatsapp', 'primary', 'other']
 module.exports = {
   allStages: allStages,
   studentStages: Object.keys(allStages),
@@ -141,5 +142,6 @@ module.exports = {
     nothing: 1, job: 2, study: 3, other: 4,
   },
   endStages: endStages,
-  allTagsForOnlineClass: allTagsForOnlineClass
+  allTagsForOnlineClass: allTagsForOnlineClass,
+  contact_type,
 };
