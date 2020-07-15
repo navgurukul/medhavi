@@ -114,8 +114,7 @@ const feedbackableStagesData = {
 const feedbackableStages = Object.keys(feedbackableStagesData);
 
 const permissions = {
-  updateStage: ['r', 's', 'saakshi19', 'gnaneshwari19', 'alisha', 'nilam', 'a', 'nitesh', 'aman19', 'rahit19', 'pralhad', 'komal', 'kumar19', 'lalita17', 'jai'],
-  addOrUpdateContact: ['nilam', 'nitesh', 'rahit19', 'jai']
+  updateStage: ['r', 's', 'saakshi19', 'gnaneshwari19', 'alisha', 'nilam', 'a', 'nitesh', 'aman19', 'rahit19', 'pralhad', 'komal', 'kumar19', 'lalita17'],
 };
 
 const allTagsForOnlineClass = [ "interviewPreparationClasses", "programmingClasses", "duplicate"]
@@ -139,7 +138,7 @@ module.exports = {
   qualification: {
     lessThan10th: 1, class10th: 2, class12th: 3, graduate: 4,
   },
-  current_status: {
+  currentStatus: {
     nothing: 1, job: 2, study: 3, other: 4,
   },
   endStages: endStages,
