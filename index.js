@@ -115,6 +115,7 @@ const feedbackableStages = Object.keys(feedbackableStagesData);
 
 const permissions = {
   updateStage: ['r', 's', 'saakshi19', 'gnaneshwari19', 'alisha', 'nilam', 'a', 'nitesh', 'aman19', 'rahit19', 'pralhad', 'komal', 'kumar19', 'lalita17'],
+  addOrUpdateContact: ['rahit19', 'nilam', 'nitesh', 'kumar19', 'pralhad']
 };
 
 const allTagsForOnlineClass = [ "interviewPreparationClasses", "programmingClasses", "duplicate"]
