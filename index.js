@@ -114,10 +114,13 @@ const feedbackableStagesData = {
 const feedbackableStages = Object.keys(feedbackableStagesData);
 
 const permissions = {
-  updateStage: ['r', 's', 'saakshi19', 'gnaneshwari19', 'alisha', 'nilam18', 'pralhad18', 'a', 'nitesh', 'aman19', 'rahit19', 'pralhad'],
+  updateStage: ['r', 's', 'saakshi19', 'gnaneshwari19', 'alisha', 'nilam', 'a', 'nitesh', 'aman19', 'rahit19', 'pralhad', 'komal', 'kumar19', 'lalita17'],
+  addOrUpdateContact: ['rahit19', 'nilam', 'nitesh', 'kumar19', 'pralhad']
 };
 
 const superAdmin=['a@navgurukul.org','s@navgurukul.org','r@navgurukul.org']
+const allTagsForOnlineClass = [ "interviewPreparationClasses", "programmingClasses", "duplicate"]
+const contact_type = ['whatsapp', 'primary', 'other']
 
 module.exports = {
   allStages: allStages,
@@ -143,4 +146,6 @@ module.exports = {
   },
   endStages: endStages,
   superAdmin,
+  allTagsForOnlineClass: allTagsForOnlineClass,
+  contact_type,
 };
