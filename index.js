@@ -114,7 +114,7 @@ const feedbackableStagesData = {
 const feedbackableStages = Object.keys(feedbackableStagesData);
 
 const permissions = {
-  updateStage: ['r', 's', 'saakshi19', 'gnaneshwari19', 'alisha', 'nilam', 'a', 'nitesh', 'aman19', 'rahit19', 'pralhad', 'komal', 'kumar19', 'lalita17'],
+  updateStage: ['r', 's', 'saakshi19', 'gnaneshwari19', 'alisha', 'nilam', 'a', 'nitesh', 'aman19', 'rahit19', 'pralhad', 'komal', 'kumar19', 'lalita17', 'ranis19', 'Peter19', 'salomi19'],
   addOrUpdateContact: ['rahit19', 'nilam', 'nitesh', 'kumar19', 'pralhad']
 };
 
