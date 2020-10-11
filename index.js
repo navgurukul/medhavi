@@ -134,7 +134,10 @@ const permissions = {
     'salomi19',
     'santosh19',
     'roshan19',
-    'Poonam19'
+    'Poonam19',
+    'kartik19',
+    'sonu19',
+    'dipesh19'
   ],
   addOrUpdateContact: ['rahit19', 'nilam', 'nitesh', 'kumar19', 'pralhad']
 };
