@@ -211,6 +211,13 @@ module.exports = {
     class10th: 2,
     class12th: 3,
     graduate: 4,
+    ba: 5,
+    bcom: 6,
+    mcom: 7,
+    msc: 8,
+    bca:9,
+    bsc: 10,
+    bba: 11,
   },
   currentStatus: {
     nothing: 1,
