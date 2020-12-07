@@ -212,6 +212,12 @@ module.exports = {
     class12th: 3,
     graduate: 4,
   },
+  qualificationKeys: {
+    1: "Less than 10th",
+    2: "Class 10th",
+    3: "Class 12th",
+    4: "Graduate",
+  },
   currentStatus: {
     nothing: 1,
     job: 2,
