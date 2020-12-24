@@ -164,6 +164,7 @@ const permissions = {
     "sunkara19",
     "roshan19",
     "rahit",
+    "aman18",
   ],
   addOrUpdateContact: ["rahit", "nilam", "nitesh", "kumar19", "pralhad"],
 };
@@ -215,7 +216,7 @@ module.exports = {
     bcom: 6,
     mcom: 7,
     msc: 8,
-    bca:9,
+    bca: 9,
     bsc: 10,
     bba: 11,
   },
