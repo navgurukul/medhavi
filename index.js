@@ -220,6 +220,18 @@ module.exports = {
     bsc: 10,
     bba: 11,
   },
+  qualificationKeys: {
+    1: "Less than 10th",
+    2: "Class 10th",
+    3: "Class 12th",
+    4: "Graduate",
+    5: "B.A.",
+    6: "B.Com.",
+    7: "M.Sc.",
+    8: "BCA",
+    9: "B.Sc.",
+    10: "BBA",
+  },
   currentStatus: {
     nothing: 1,
     job: 2,
