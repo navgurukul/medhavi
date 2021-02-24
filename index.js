@@ -26,9 +26,13 @@ const allStages = {
   pendingParentConversation: "Pending Parent Conversations",
   parentConversationFail: "Parent Conversation Failed",
 
+  // selection
+  selectedAndJoiningAwaited: "Selected & Joining Awaited",
+  offerLetterSent: "Offer Letter Sent",
+
   // travel planning
   pendingTravelPlanning: "Pending Travel Plans",
-  finalisedTravelPlans: "Selected & Joining Awaited",
+  finalisedTravelPlans: "Finalised Travel Plans",
 
   // probation etc. once when the student has joined navgurukul
   // probation: 'Probation',
