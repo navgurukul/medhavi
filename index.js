@@ -3,20 +3,20 @@ const allStages = {
   enrolmentKeyGenerated: "Enrolment Key Generated",
   basicDetailsEntered: "Basic Details Entered",
   // english interviews
-  pendingEnglishInterview: "English Interview Pending",
+  pendingEnglishInterview: "English Interview Pending (2nd Round)",
   // forReviewEnglishInterview: 'English Interview For Review',
   englishInterviewFail: "English Interview Failed",
   // englishInterviewWaitlisted: 'English Interview Waitlisted',
 
   // algebra interviews
-  pendingAlgebraInterview: "Algebra Interview Pending",
+  pendingAlgebraInterview: "Algebra Interview Pending (3rd Round)",
   pendingAlgebraReInterview: "Algebra Interview Re-Interview", // algebra re-interview
   // forReviewAlgebraInterviewDone: 'Algebra Interview For Review',
   algebraInterviewFail: "Algebra Interview Failed",
   // algebraInterviewWaitlisted: 'Algebra Interview Waitlisted',
 
   // culture fit interviews
-  pendingCultureFitInterview: "Culture Fit Interview Pending",
+  pendingCultureFitInterview: "Culture Fit Interview Pending (4th Round)",
   // forReviewCultureFitInterviewDone: 'Culture Fit Interview Review',
   // cultureFitInterviewWaitlisted: 'Culture Fit Interview Waitlisted',
   pendingCultureFitReinterview: "Pending Culture Fit Re-Interview",
