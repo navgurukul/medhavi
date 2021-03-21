@@ -27,6 +27,10 @@ const allStages = {
   parentConversationFail: "Parent Conversation Failed",
 
   // selection
+  selectedPune: "Selected(Pune)",
+  selectedBangalore: "Selected(Bangalore)",
+  selectedSarjapura: "Selected(Sarjapura)",
+  selectedDharamshala: "Selected(Dharamshala)",
   selectedAndJoiningAwaited: "Selected & Joining Awaited",
   offerLetterSent: "Offer Letter Sent",
 
