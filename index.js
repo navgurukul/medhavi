@@ -166,6 +166,7 @@ const feedbackableStagesData = {
       "Oct",
       "Nov",
       "Dec",
+      "Uninterested",
     ],
   },
 
