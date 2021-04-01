@@ -4,12 +4,24 @@ const allStages = {
   basicDetailsEntered: "Basic Details Entered",
   // english interviews
   pendingEnglishInterview: "English Interview Pending (2nd Round)",
+  pendingEnglishInterview_Unreachable:
+    "English Interview Pending (Unreachable)",
+  pendingEnglishInterview_NotResponding:
+    "English Interview Pending (Not Responding)",
+  pendingEnglishInterview_BecameDisinterested:
+    "English Interview Pending (Became Disinterested)",
   // forReviewEnglishInterview: 'English Interview For Review',
   englishInterviewFail: "English Interview Failed",
   // englishInterviewWaitlisted: 'English Interview Waitlisted',
 
   // algebra interviews
   pendingAlgebraInterview: "Algebra Interview Pending (3rd Round)",
+  pendingAlgebraInterview_Unreachable:
+    "Algebra Interview Pending (Unreachable)",
+  pendingAlgebraInterview_NotResponding:
+    "Algebra Interview Pending (Not Responding)",
+  pendingAlgebraInterview_BecameDisinterested:
+    "Algebra Interview Pending (Became Disinterested)",
   pendingAlgebraReInterview: "Algebra Interview Re-Interview", // algebra re-interview
   // forReviewAlgebraInterviewDone: 'Algebra Interview For Review',
   algebraInterviewFail: "Algebra Interview Failed",
@@ -17,6 +29,13 @@ const allStages = {
 
   // culture fit interviews
   pendingCultureFitInterview: "Culture Fit Interview Pending (4th Round)",
+  pendingCultureFitInterview_Unreachable:
+    "Culture Fit Interview Pending (Unreachable)",
+  pendingCultureFitInterview_NotResponding:
+    "Culture Fit Interview Pending (Not Responding)",
+  pendingCultureFitInterview_BecameDisinterested:
+    "Culture Fit Interview Pending (Became Disinterested)",
+
   // forReviewCultureFitInterviewDone: 'Culture Fit Interview Review',
   // cultureFitInterviewWaitlisted: 'Culture Fit Interview Waitlisted',
   pendingCultureFitReinterview: "Pending Culture Fit Re-Interview",
@@ -36,6 +55,13 @@ const allStages = {
 
   // travel planning
   pendingTravelPlanning: "Pending Travel Plans",
+  pendingTravelPlanning_Unreachable: "Pending Travel Plans (Unreachable)",
+  pendingTravelPlanning_NotResponding: "Pending Travel Plans (Not Responding)",
+  pendingTravelPlanning_WillJoinIn: "Pending Travel Plans (Will Join In)",
+  pendingTravelPlanning_TicketBooked: "Pending Travel Plans (Ticket Booked)",
+  pendingTravelPlanning_NeedFinancialSupport:
+    "Pending Travel Plans (Need Financial support)",
+  pendingTravelPlanning_TalkToParents: "Pending Travel Plans (Talk to parents)",
   finalisedTravelPlans: "Finalised Travel Plans",
 
   // probation etc. once when the student has joined navgurukul
@@ -151,7 +177,22 @@ const feedbackableStagesData = {
       "uninterested",
     ],
   },
-
+  pendingTravelPlanning_WillJoinIn: {
+    status: [
+      "Jan",
+      "Feb",
+      "Mar",
+      "Apr",
+      "May",
+      "Jun",
+      "Jul",
+      "Aug",
+      "Sep",
+      "Oct",
+      "Nov",
+      "Dec",
+    ],
+  },
   finalisedTravelPlans: {
     status: [
       "Jan",
