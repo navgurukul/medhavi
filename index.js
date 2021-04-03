@@ -57,6 +57,8 @@ const allStages = {
   pendingTravelPlanning: "Pending Travel Plans",
   pendingTravelPlanning_Unreachable: "Pending Travel Plans (Unreachable)",
   pendingTravelPlanning_NotResponding: "Pending Travel Plans (Not Responding)",
+  pendingTravelPlanning_BecameDisinterested:
+    "Pending Travel Plans (Become Disinterested)",
   pendingTravelPlanning_WillJoinIn: "Pending Travel Plans (Will Join In)",
   pendingTravelPlanning_TicketBooked: "Pending Travel Plans (Ticket Booked)",
   pendingTravelPlanning_NeedFinancialSupport:
@@ -208,6 +210,22 @@ const feedbackableStagesData = {
       "Nov",
       "Dec",
       "Uninterested",
+    ],
+  },
+  deferredJoining: {
+    status: [
+      "Jan",
+      "Feb",
+      "Mar",
+      "Apr",
+      "May",
+      "Jun",
+      "Jul",
+      "Aug",
+      "Sep",
+      "Oct",
+      "Nov",
+      "Dec",
     ],
   },
 
