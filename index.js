@@ -16,14 +16,7 @@ const allStages = {
 
   // culture fit interviews
   pendingCultureFitInterview: "Culture Fit Interview Pending (4th Round)",
-  pendingCultureFitInterview_Unreachable:
-    "Culture Fit Interview Pending (Unreachable)",
-  pendingCultureFitInterview_NotResponding:
-    "Culture Fit Interview Pending (Not Responding)",
-  pendingCultureFitInterview_BecameDisinterested:
-    "Culture Fit Interview Pending (Became Disinterested)",
 
-  // forReviewCultureFitInterviewDone: 'Culture Fit Interview Review',
   // cultureFitInterviewWaitlisted: 'Culture Fit Interview Waitlisted',
   pendingCultureFitReinterview: "Pending Culture Fit Re-Interview",
   cultureFitInterviewFail: "Culture Interview Failed",
@@ -210,7 +203,7 @@ const feedbackableStagesData = {
   },
   tuitionGroup: {
     deadline: 24,
-    status: ["added", "uninteresetd", "unreachable"],
+    status: ["added", "uninterested", "unreachable"],
   },
   requestCallback: {
     deadline: 60,
