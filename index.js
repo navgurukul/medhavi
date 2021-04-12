@@ -41,6 +41,11 @@ const allStages = {
   // probation: 'Probation',
   deferredJoining: "Deferred Joining",
   finallyJoined: "Joined",
+  finallyJoinedDharamshala: "Joined(Dharamshala)",
+  finallyJoinedPune: "Joined(Pune)",
+  finallyJoinedBangalore: "Joined(Bangalore)",
+  finallyJoinedSarjapura: "Joined(Sarjapura)",
+  finallyJoinedPune: "Joined(Pune)",
   // droppedOut: 'Dropped Out',
   // sentBackAfterProbation: 'Probation Failed',
 
