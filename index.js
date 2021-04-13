@@ -156,6 +156,7 @@ const feedbackableStagesData = {
       "finalised",
       "reimbursement",
       "failed",
+      "joinedMeraki",
       "unreachable",
       "notResponding",
       "disinterested",
