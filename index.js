@@ -198,10 +198,18 @@ const feedbackableStagesData = {
       "Dec",
     ],
   },
-
   pendingParentConversation: {
     deadline: 24,
     status: ["passed", "failed", "review", "unreachable", "disinterested"],
+  },
+  algebraInterviewFail: {
+    status: ["joinedMeraki", "unreachable", "notResponding"],
+  },
+  englishInterviewFail: {
+    status: ["joinedMeraki", "unreachable", "notResponding"],
+  },
+  cultureFitInterviewFail: {
+    status: ["joinedMeraki", "unreachable", "notResponding"],
   },
   becameDisIntersested: {
     deadline: 60,
