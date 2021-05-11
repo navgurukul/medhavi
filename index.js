@@ -30,6 +30,7 @@ const allStages = {
   selectedBangalore: "Selected(Bangalore)",
   selectedSarjapura: "Selected(Sarjapura)",
   selectedDharamshala: "Selected(Dharamshala)",
+  selected:"Selected",
   selectedAndJoiningAwaited: "Selected & Joining Awaited",
   offerLetterSent: "Offer Letter Sent",
 
@@ -103,6 +104,19 @@ const allStages = {
   inJob: "In Job",
   payingForward: "Paying Forward",
   paidForward: "Paid Forward",
+};
+
+const campus = [
+  "Banglore",
+  "Dharmashala",
+  "Sarjapura",
+  "Pune"
+]
+
+const subStage = {
+  understood: "understood",
+  confused: "confused",
+  needrevision: "need revision",
 };
 
 const endStages = [
@@ -269,6 +283,8 @@ const contact_type = ["whatsapp", "primary", "other"];
 module.exports = {
   allStages: allStages,
   studentStages: Object.keys(allStages),
+  studentSubStage: Object.keys(subStage),
+  campus:campus,
   feedbackableStages: feedbackableStages,
   feedbackableStagesData: feedbackableStagesData,
   permissions: permissions,
