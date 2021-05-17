@@ -4,20 +4,20 @@ const allStages = {
   basicDetailsEntered: "Basic Details Entered",
   // english interviews
   pendingEnglishInterview: "English Interview Pending (2nd Round)",
-  // forReviewEnglishInterview: 'English Interview For Review',
+  // forReviewEnglishInterview: "English Interview For Review",
   englishInterviewFail: "English Interview Failed",
-  // englishInterviewWaitlisted: 'English Interview Waitlisted',
+  // englishInterviewWaitlisted: "English Interview Waitlisted",
 
   // algebra interviews
   pendingAlgebraInterview: "Algebra Interview Pending (3rd Round)",
-  // forReviewAlgebraInterviewDone: 'Algebra Interview For Review',
+  // forReviewAlgebraInterviewDone: "Algebra Interview For Review",
   algebraInterviewFail: "Algebra Interview Failed",
-  // algebraInterviewWaitlisted: 'Algebra Interview Waitlisted',
+  // algebraInterviewWaitlisted: "Algebra Interview Waitlisted",
 
   // culture fit interviews
   pendingCultureFitInterview: "Culture Fit Interview Pending (4th Round)",
 
-  // cultureFitInterviewWaitlisted: 'Culture Fit Interview Waitlisted',
+  // cultureFitInterviewWaitlisted: "Culture Fit Interview Waitlisted",
   pendingCultureFitReinterview: "Pending Culture Fit Re-Interview",
   cultureFitInterviewFail: "Culture Interview Failed",
 
@@ -30,6 +30,7 @@ const allStages = {
   selectedBangalore: "Selected(Bangalore)",
   selectedSarjapura: "Selected(Sarjapura)",
   selectedDharamshala: "Selected(Dharamshala)",
+  selected: "Selected",
   selectedAndJoiningAwaited: "Selected & Joining Awaited",
   offerLetterSent: "Offer Letter Sent",
 
@@ -38,20 +39,19 @@ const allStages = {
   finalisedTravelPlans: "Finalised Travel Plans",
 
   // probation etc. once when the student has joined navgurukul
-  // probation: 'Probation',
+  // probation: "Probation",
   deferredJoining: "Deferred Joining",
   finallyJoined: "Joined",
   finallyJoinedDharamshala: "Joined(Dharamshala)",
   finallyJoinedPune: "Joined(Pune)",
   finallyJoinedBangalore: "Joined(Bangalore)",
   finallyJoinedSarjapura: "Joined(Sarjapura)",
-  finallyJoinedPune: "Joined(Pune)",
-  // droppedOut: 'Dropped Out',
-  // sentBackAfterProbation: 'Probation Failed',
+  // droppedOut: "Dropped Out",
+  // sentBackAfterProbation: "Probation Failed",
 
   // is not reachable
   becameDisIntersested: "Became Disinterested",
-  // disqualifiedUnreachable: 'Can`t reach Student',
+  // disqualifiedUnreachable: "Can`t reach Student",
   notReachable: "Unreachable",
 
   // diversity based decision
@@ -60,14 +60,14 @@ const allStages = {
 
   // random stages for internal use
   possibleDuplicate: "Duplicate",
-  // needAction: 'Need Action',
-  // demo: 'Not Clear???',
+  // needAction: "Need Action",
+  // demo: "Not Clear???",
   caughtCheating: "Caught Cheating",
   tuitionGroup: "Tution Group",
 
   requestCallback: "Requested Callback",
-  // pendingCallbackForQuery: 'Pending Callback',
-  // forReviewCallbackQueryResolved: 'For Review CallbackQuery Resolved',
+  // pendingCallbackForQuery: "Pending Callback",
+  // forReviewCallbackQueryResolved: "For Review CallbackQuery Resolved",
   queryResolvedAfterCallback: "Query Resolved After CallBack",
   testFailed: "Test Failed",
   M1: "English & Quarantine",
@@ -103,6 +103,119 @@ const allStages = {
   inJob: "In Job",
   payingForward: "Paying Forward",
   paidForward: "Paid Forward",
+};
+
+const campus = [
+  "Pune",
+  "Banglore",
+  "Sarjapura",
+  "Dharmashala",
+];
+
+const donor = [
+  "Microsoft & Accenture",
+  "KPMG",
+  "Accenture",
+]
+
+const subStage = [
+  "understood",
+  "confused",
+  "need revision",
+]
+
+const allSubStages = {
+  // related to the mcq test
+  enrolmentKeyGenerated: [],
+  basicDetailsEntered: [],
+  pendingEnglishInterview: [],
+  englishInterviewFail: [],
+
+  // algebra interviews
+  pendingAlgebraInterview: [],
+  algebraInterviewFail: [],
+
+  // culture fit interviews
+  pendingCultureFitInterview: [],
+
+  pendingCultureFitReinterview: [],
+  cultureFitInterviewFail: [],
+
+  // parent conversations
+  pendingParentConversation: [],
+  parentConversationFail: [],
+
+  // selection
+  selectedPune: [],
+  selectedBangalore: [],
+  selectedSarjapura: [],
+  selectedDharamshala: [],
+  selected: [],
+  selectedAndJoiningAwaited: [],
+  offerLetterSent: [],
+
+  // travel planning
+  pendingTravelPlanning: [],
+  finalisedTravelPlans: [],
+
+  // probation etc. once when the student has joined navgurukul
+  // probation: "Probation",
+  deferredJoining: [],
+  finallyJoined: [],
+  finallyJoinedDharamshala: [],
+  finallyJoinedPune: [],
+  finallyJoinedBangalore: [],
+  finallyJoinedSarjapura: [],
+
+  // is not reachable
+  becameDisIntersested: [],
+  notReachable: [],
+
+  // diversity based decision
+  disqualifiedAfterDiversityFilter: [],
+  diversityBasedDecisionPending: [],
+
+  // random stages for internal use
+  possibleDuplicate: [],
+  caughtCheating: [],
+  tuitionGroup: [],
+
+  requestCallback: [],
+  queryResolvedAfterCallback: [],
+  testFailed: [],
+  M1: subStage,
+  M2: subStage,
+  M3: subStage,
+  M4: subStage,
+  M5: subStage,
+  M6: subStage,
+  M7: subStage,
+  M8: subStage,
+  M9: subStage,
+  M10: subStage,
+  M11: subStage,
+  M12: subStage,
+  M13: subStage,
+  M14: subStage,
+  M15: subStage,
+  M16: subStage,
+  M17: subStage,
+  M18: subStage,
+  M19: subStage,
+  M20: subStage,
+  M21: subStage,
+  M22: subStage,
+  leaveMedical: [],
+  leaveExams: [],
+  leaveOthers: [],
+  droppedOutDharamshala: [],
+  droppedOutBangalore: [],
+  droppedOutSarjapura: [],
+  droppedOutPune: [],
+  droppedOut: [],
+  inJob: [],
+  payingForward: [],
+  paidForward: [],
 };
 
 const endStages = [
@@ -269,6 +382,9 @@ const contact_type = ["whatsapp", "primary", "other"];
 module.exports = {
   allStages: allStages,
   studentStages: Object.keys(allStages),
+  studentSubStage: subStage,
+  campus,
+  donor,
   feedbackableStages: feedbackableStages,
   feedbackableStagesData: feedbackableStagesData,
   permissions: permissions,
