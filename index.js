@@ -105,24 +105,11 @@ const allStages = {
   paidForward: "Paid Forward",
 };
 
-const campus = [
-  "Pune",
-  "Banglore",
-  "Sarjapura",
-  "Dharmashala",
-];
+const campus = ["Pune", "Banglore", "Sarjapura", "Dharmashala"];
 
-const donor = [
-  "Microsoft & Accenture",
-  "KPMG",
-  "Accenture",
-]
+const donor = ["Microsoft & Accenture", "KPMG", "Accenture"];
 
-const subStage = [
-  "understood",
-  "confused",
-  "need revision",
-]
+const subStage = ["understood", "confused", "need revision"];
 
 const allSubStages = {
   // related to the mcq test
@@ -367,6 +354,8 @@ const permissions = {
     "rubina20",
     "kittiy",
     "rose",
+    "komal",
+    "komal18",
   ],
   addOrUpdateContact: ["rahit", "nilam", "nitesh", "kumar19", "pralhad"],
 };
