@@ -111,100 +111,6 @@ const donor = ["Microsoft & Accenture", "KPMG", "Accenture"];
 
 const subStage = ["understood", "confused", "need revision"];
 
-const allSubStages = {
-  // related to the mcq test
-  enrolmentKeyGenerated: [],
-  basicDetailsEntered: [],
-  pendingEnglishInterview: [],
-  englishInterviewFail: [],
-
-  // algebra interviews
-  pendingAlgebraInterview: [],
-  algebraInterviewFail: [],
-
-  // culture fit interviews
-  pendingCultureFitInterview: [],
-
-  pendingCultureFitReinterview: [],
-  cultureFitInterviewFail: [],
-
-  // parent conversations
-  pendingParentConversation: [],
-  parentConversationFail: [],
-
-  // selection
-  selectedPune: [],
-  selectedBangalore: [],
-  selectedSarjapura: [],
-  selectedDharamshala: [],
-  selected: [],
-  selectedAndJoiningAwaited: [],
-  offerLetterSent: [],
-
-  // travel planning
-  pendingTravelPlanning: [],
-  finalisedTravelPlans: [],
-
-  // probation etc. once when the student has joined navgurukul
-  // probation: "Probation",
-  deferredJoining: [],
-  finallyJoined: [],
-  finallyJoinedDharamshala: [],
-  finallyJoinedPune: [],
-  finallyJoinedBangalore: [],
-  finallyJoinedSarjapura: [],
-
-  // is not reachable
-  becameDisIntersested: [],
-  notReachable: [],
-
-  // diversity based decision
-  disqualifiedAfterDiversityFilter: [],
-  diversityBasedDecisionPending: [],
-
-  // random stages for internal use
-  possibleDuplicate: [],
-  caughtCheating: [],
-  tuitionGroup: [],
-
-  requestCallback: [],
-  queryResolvedAfterCallback: [],
-  testFailed: [],
-  M1: subStage,
-  M2: subStage,
-  M3: subStage,
-  M4: subStage,
-  M5: subStage,
-  M6: subStage,
-  M7: subStage,
-  M8: subStage,
-  M9: subStage,
-  M10: subStage,
-  M11: subStage,
-  M12: subStage,
-  M13: subStage,
-  M14: subStage,
-  M15: subStage,
-  M16: subStage,
-  M17: subStage,
-  M18: subStage,
-  M19: subStage,
-  M20: subStage,
-  M21: subStage,
-  M22: subStage,
-  leaveMedical: [],
-  leaveExams: [],
-  leaveOthers: [],
-  droppedOutDharamshala: [],
-  droppedOutBangalore: [],
-  droppedOutSarjapura: [],
-  droppedOutPune: [],
-  droppedOut: [],
-  inJob: [],
-  payingForward: [],
-  paidForward: [],
-};
-
 const endStages = [
   "deferredJoining",
   "notReachable",
@@ -326,6 +232,73 @@ const feedbackableStagesData = {
   requestCallback: {
     deadline: 60,
     status: ["resolved", "informedTeam", "unreachable"],
+  },
+  M1: {
+    status: subStage,
+  },
+
+  M2: {
+    status: subStage,
+  },
+  M3: {
+    status: subStage,
+  },
+  M4: {
+    status: subStage,
+  },
+  M5: {
+    status: subStage,
+  },
+  M6: {
+    status: subStage,
+  },
+  M7: {
+    status: subStage,
+  },
+  M8: {
+    status: subStage,
+  },
+  M9: {
+    status: subStage,
+  },
+  M10: {
+    status: subStage,
+  },
+  M11: {
+    status: subStage,
+  },
+  M12: {
+    status: subStage,
+  },
+  M13: {
+    status: subStage,
+  },
+  M14: {
+    status: subStage,
+  },
+  M15: {
+    status: subStage,
+  },
+  M16: {
+    status: subStage,
+  },
+  M17: {
+    status: subStage,
+  },
+  M18: {
+    status: subStage,
+  },
+  M19: {
+    status: subStage,
+  },
+  M20: {
+    status: subStage,
+  },
+  M21: {
+    status: subStage,
+  },
+  M22: {
+    status: subStage,
   },
 };
 
