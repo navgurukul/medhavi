@@ -356,8 +356,9 @@ const permissions = {
     "rose",
     "komal",
     "komal18",
+    "pooja",
   ],
-  addOrUpdateContact: ["rahit", "nilam", "nitesh", "kumar19", "pralhad"],
+  addOrUpdateContact: ["rahit", "nilam", "nitesh", "kumar19"],
 };
 
 const superAdmin = ["a@navgurukul.org", "s@navgurukul.org", "r@navgurukul.org"];
