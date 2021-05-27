@@ -105,7 +105,7 @@ const allStages = {
   paidForward: "Paid Forward",
 };
 
-const campus = ["Pune", "Banglore", "Sarjapura", "Dharmashala"];
+const campus = ["Pune", "Bangalore", "Sarjapura", "Dharamshala"];
 
 const donor = ["Microsoft & Accenture", "KPMG", "Accenture"];
 
