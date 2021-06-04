@@ -108,9 +108,11 @@ const allStages = {
 const campus = ["Pune", "Bangalore", "Sarjapura", "Dharamshala"];
 
 const donor = [
-  { id: 1, name: "Microsoft" },
-  { id: 2, name: "KPMG" },
-  { id: 3, name: "Accenture" },
+  { id: 1, name: "Accenture C1" },
+  { id: 2, name: "Accenture C2" },
+  { id: 3, name: "Accenture C3" },
+  { id: 4, name: "Microsoft" },
+  { id: 5, name: "KPMG C1" },
 ];
 
 const subStage = ["understood", "confused", "need revision"];
