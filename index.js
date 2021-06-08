@@ -92,9 +92,7 @@ const allStages = {
   M20: "Project 2",
   M21: "Interview Preparation",
   M22: "Job Search",
-  leaveMedical: "On Leave (Medical)",
-  leaveExams: "On Leave (Exams)",
-  leaveOthers: "On Leave (Other)",
+  onLeave: "On Leave",
   droppedOutDharamshala: "Dropped Out (Dharamshala)",
   droppedOutBangalore: "Dropped Out (Bangalore)",
   droppedOutSarjapura: "Dropped Out (Sarjapura)",
@@ -299,6 +297,9 @@ const feedbackableStagesData = {
   },
   M22: {
     status: subStage,
+  },
+  onLeave: {
+    status: ["Medical", "Exams", "Others"],
   },
 };
 
