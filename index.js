@@ -103,9 +103,51 @@ const allStages = {
   paidForward: "Paid Forward",
 };
 
-const campus = ["Pune", "Banglore", "Sarjapura", "Dharmashala"];
+const campusStageOfLearning = {
+  M1: "English & Quarantine",
+  M2: "Dry Run",
+  M3: "If - Else",
+  M4: "Loops",
+  M5: "Lists",
+  M6: "Functions",
+  M7: "Python Complete",
+  M8: "Hangman, Requests & more",
+  M9: "Web Scraping",
+  M10: "Javascript / ES6",
+  M11: "NodeJS - Callbacks & Async",
+  M12: "React - HTML & CSS",
+  M13: "NodeJS - CRUD",
+  M14: "React - Bootstrap & Jquery",
+  M15: "NodeJS - MySQL/Knex/Joi",
+  M16: "React - State, Props & Components",
+  M17: "NodeJS: JWT",
+  M18: "React - React Lifecycle",
+  M19: "Project 1",
+  M20: "Project 2",
+  M21: "Interview Preparation",
+  M22: "Job Search",
+  leaveMedical: "On Leave (Medical)",
+  leaveExams: "On Leave (Exams)",
+  leaveOthers: "On Leave (Other)",
+  droppedOutDharamshala: "Dropped Out (Dharamshala)",
+  droppedOutBangalore: "Dropped Out (Bangalore)",
+  droppedOutSarjapura: "Dropped Out (Sarjapura)",
+  droppedOutPune: "Dropped Out (Pune)",
+  droppedOut: "Dropped Out",
+  inJob: "In Job",
+  payingForward: "Paying Forward",
+  paidForward: "Paid Forward",
+};
 
-const donor = ["Microsoft & Accenture", "KPMG", "Accenture"];
+const campus = ["Pune", "Bangalore", "Sarjapura", "Dharamshala"];
+
+const donor = [
+  { id: 1, name: "Accenture C1" },
+  { id: 2, name: "Accenture C2" },
+  { id: 3, name: "Accenture C3" },
+  { id: 4, name: "Microsoft C1" },
+  { id: 5, name: "KPMG C1" },
+];
 
 const subStage = ["understood", "confused", "need revision"];
 
@@ -344,6 +386,7 @@ const allTagsForOnlineClass = [
 const contact_type = ["whatsapp", "primary", "other"];
 
 module.exports = {
+  campusStageOfLearning: campusStageOfLearning,
   allStages: allStages,
   studentStages: Object.keys(allStages),
   studentSubStage: subStage,
