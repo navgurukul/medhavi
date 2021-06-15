@@ -375,6 +375,7 @@ const permissions = {
     "komal",
     "komal18",
     "pooja",
+    "shahnaaz",
   ],
   addOrUpdateContact: ["rahit", "nilam", "nitesh", "kumar19"],
 };
