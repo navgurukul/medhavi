@@ -137,8 +137,12 @@ const campusStageOfLearning = {
   paidForward: "Paid Forward",
 };
 
-const campus = ["Pune", "Bangalore", "Sarjapura", "Dharamshala"];
-
+const campus = [
+  { id: 1, name: "Pune" },
+  { id: 2, name: "Dharamshala" },
+  { id: 3, name: "Bangalore" },
+  { id: 4, name: "Sarjapura" },
+];
 const donor = [
   { id: 1, name: "Accenture C1" },
   { id: 2, name: "Accenture C2" },
