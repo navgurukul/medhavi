@@ -383,6 +383,7 @@ const permissions = {
     "shweta",
     "subhash20",
     "ranjan20",
+    "kalpana20",
   ],
   addOrUpdateContact: ["rahit", "nilam", "nitesh", "kumar19"],
 };
