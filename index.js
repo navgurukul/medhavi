@@ -387,6 +387,7 @@ const permissions = {
     "shireen20",
     "laxmi21",
     "pranjali20",
+    "kalpana20",
   ],
   addOrUpdateContact: ["rahit", "nilam", "nitesh", "kumar19"],
 };
