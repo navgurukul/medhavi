@@ -32,11 +32,16 @@ const allStages = {
   selectedDharamshala: "Selected(Dharamshala)",
   selected: "Selected",
   selectedAndJoiningAwaited: "Selected & Joining Awaited",
+  selectedButNotJoined: "Selected But Not Joined",
   offerLetterSent: "Offer Letter Sent",
 
   // travel planning
   pendingTravelPlanning: "Pending Travel Plans",
   finalisedTravelPlans: "Finalised Travel Plans",
+  finalisedTravelPlansBangalore: "Finalize Travel Plans(Bangalore)",
+  finalisedTravelPlansDharamshala: "Finalize Travel Plans(Dharamshala)",
+  finalisedTravelPlansPune: "Finalize Travel Plans(Pune)",
+  finalisedTravelPlansSarjapura: "Finalize Travel Plans(Sarjapura)",
 
   // probation etc. once when the student has joined navgurukul
   // probation: "Probation",
