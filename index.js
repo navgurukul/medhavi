@@ -37,7 +37,7 @@ const allStages = {
 
   // travel planning
   pendingTravelPlanning: "Pending Travel Plans",
-  finalisedTravelPlans: "Finalised Travel Plans",
+  finalisedTravelPlans: "Finalized Travel Plans",
   finalisedTravelPlansBangalore: "Finalize Travel Plans(Bangalore)",
   finalisedTravelPlansDharamshala: "Finalize Travel Plans(Dharamshala)",
   finalisedTravelPlansPune: "Finalize Travel Plans(Pune)",
