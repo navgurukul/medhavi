@@ -350,6 +350,7 @@ const feedbackableStagesData = {
   onLeave: {
     status: ["Medical", "Exams", "Others"],
   },
+  selectedButNotJoined:null
 };
 
 const feedbackableStages = Object.keys(feedbackableStagesData);
