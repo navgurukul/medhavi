@@ -350,7 +350,7 @@ const feedbackableStagesData = {
   onLeave: {
     status: ["Medical", "Exams", "Others"],
   },
-  selectedButNotJoined:null
+  selectedButNotJoined: null,
 };
 
 const feedbackableStages = Object.keys(feedbackableStagesData);
@@ -394,6 +394,11 @@ const permissions = {
     "laxmi21",
     "pranjali20",
     "kalpana20",
+    "shahina",
+    "ranjana20",
+    "shreshta20",
+    "usha20",
+    "ishitav20",
   ],
   addOrUpdateContact: ["rahit", "nilam", "nitesh", "kumar19"],
 };
