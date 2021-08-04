@@ -26,10 +26,6 @@ const allStages = {
   parentConversationFail: "Parent Conversation Failed",
 
   // selection
-  selectedPune: "Selected(Pune)",
-  selectedBangalore: "Selected(Bangalore)",
-  selectedSarjapura: "Selected(Sarjapura)",
-  selectedDharamshala: "Selected(Dharamshala)",
   selected: "Selected",
   selectedAndJoiningAwaited: "Selected & Joining Awaited",
   selectedButNotJoined: "Selected But Not Joined",
@@ -38,19 +34,11 @@ const allStages = {
   // travel planning
   pendingTravelPlanning: "Pending Travel Plans",
   finalisedTravelPlans: "Finalized Travel Plans",
-  finalisedTravelPlansBangalore: "Finalize Travel Plans(Bangalore)",
-  finalisedTravelPlansDharamshala: "Finalize Travel Plans(Dharamshala)",
-  finalisedTravelPlansPune: "Finalize Travel Plans(Pune)",
-  finalisedTravelPlansSarjapura: "Finalize Travel Plans(Sarjapura)",
 
   // probation etc. once when the student has joined navgurukul
   // probation: "Probation",
   deferredJoining: "Deferred Joining",
   finallyJoined: "Joined",
-  finallyJoinedDharamshala: "Joined(Dharamshala)",
-  finallyJoinedPune: "Joined(Pune)",
-  finallyJoinedBangalore: "Joined(Bangalore)",
-  finallyJoinedSarjapura: "Joined(Sarjapura)",
   // droppedOut: "Dropped Out",
   // sentBackAfterProbation: "Probation Failed",
 
@@ -98,10 +86,6 @@ const allStages = {
   M21: "Interview Preparation",
   M22: "Job Search",
   onLeave: "On Leave",
-  droppedOutDharamshala: "Dropped Out (Dharamshala)",
-  droppedOutBangalore: "Dropped Out (Bangalore)",
-  droppedOutSarjapura: "Dropped Out (Sarjapura)",
-  droppedOutPune: "Dropped Out (Pune)",
   droppedOut: "Dropped Out",
   inJob: "In Job",
   payingForward: "Paying Forward",
@@ -132,10 +116,6 @@ const campusStageOfLearning = {
   M21: "Interview Preparation",
   M22: "Job Search",
   onLeave: "On Leave",
-  droppedOutDharamshala: "Dropped Out (Dharamshala)",
-  droppedOutBangalore: "Dropped Out (Bangalore)",
-  droppedOutSarjapura: "Dropped Out (Sarjapura)",
-  droppedOutPune: "Dropped Out (Pune)",
   droppedOut: "Dropped Out",
   inJob: "In Job",
   payingForward: "Paying Forward",
