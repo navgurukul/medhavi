@@ -93,6 +93,7 @@ const allStages = {
 };
 
 const campusStageOfLearning = {
+  finallyJoined: "Joined",
   M1: "English & Quarantine",
   M2: "Dry Run",
   M3: "If - Else",
