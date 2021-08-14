@@ -371,8 +371,6 @@ const permissions = {
     "subhash20",
     "ranjan20",
     "kumar",
-    "shireen20",
-    "laxmi21",
     "pranjali20",
     "kalpana20",
     "shahina",
@@ -380,8 +378,11 @@ const permissions = {
     "shreshta20",
     "usha20",
     "ishitav20",
+    "somisingh20",
+    "meghakashyap20",
+    "shanti",
   ],
-  addOrUpdateContact: ["rahit", "nilam", "nitesh", "kumar19"],
+  addOrUpdateContact: ["rahit", "nilam", "nitesh", "kumar"],
 };
 
 const superAdmin = ["a@navgurukul.org", "s@navgurukul.org", "r@navgurukul.org"];
