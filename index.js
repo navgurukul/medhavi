@@ -382,6 +382,16 @@ const permissions = {
     "ishitav20",
   ],
   addOrUpdateContact: ["rahit", "nilam", "nitesh", "kumar19"],
+  updateStudentName: [
+    "komal",
+    "shreshta20",
+    "kumar19",
+    "rahit",
+    "shweta",
+    "shahnaaz",
+    "saquib",
+    "saquib18",
+  ],
 };
 
 const superAdmin = ["a@navgurukul.org", "s@navgurukul.org", "r@navgurukul.org"];
