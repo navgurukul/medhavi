@@ -390,6 +390,8 @@ const permissions = {
     "mohammedsana20",
     "anshika21",
     "ruchi20",
+    "jayshrirathod20",
+    "ayushi21",
   ],
 
   updateStudentName: [
