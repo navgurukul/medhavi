@@ -176,6 +176,7 @@ const feedbackableStagesData = {
       "unreachable",
       "disinterested",
       "notResponding",
+      "Tution Group",
     ],
   },
   pendingCultureFitInterview: {
@@ -258,7 +259,14 @@ const feedbackableStagesData = {
   },
   tuitionGroup: {
     deadline: 24,
-    status: ["added", "uninterested", "unreachable"],
+    status: [
+      "passed",
+      "failed",
+      "review",
+      "unreachable",
+      "disinterested",
+      "notResponding",
+    ],
   },
   requestCallback: {
     deadline: 60,
