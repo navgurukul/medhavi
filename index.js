@@ -350,7 +350,9 @@ const feedbackableStages = Object.keys(feedbackableStagesData);
 const permissions = {
   updateStage: [
     "saquib",
+    "kirithiv",
     "saquib18",
+    "kirithivr19",
     "anand",
     "komala",
     "poonam",
@@ -400,6 +402,8 @@ const permissions = {
     "ruchi20",
     "jayshrirathod20",
     "ayushi21",
+    "shubhangimhetre20",
+    "priyankadangwal20",
   ],
 
   updateStudentName: [
