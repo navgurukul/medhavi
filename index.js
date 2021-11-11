@@ -404,6 +404,8 @@ const permissions = {
     "ayushi21",
     "shubhangimhetre20",
     "priyankadangwal20",
+    "riyasingh21",
+    "nasringulnaaz21"
   ],
 
   updateStudentName: [
@@ -424,6 +426,8 @@ const permissions = {
     "ranjana20",
     "pranjali20",
     "anshika21",
+    "riyasingh21",
+    "nasringulnaaz21"
   ],
   addOrUpdateContact: ["rahit", "nilam", "nitesh", "kumar"],
 };
