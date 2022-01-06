@@ -476,6 +476,9 @@ const permissions = {
     "shikha21",
     "vaibhavmagar",
     "sweetyparveen21",
+    "riyasingh21",
+    "sushreesupriti21",
+    "astha",
   ],
 
   updateStudentName: [
