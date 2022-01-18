@@ -129,7 +129,7 @@ const campus = [
   { id: 3, name: "Bangalore" },
   { id: 4, name: "Sarjapura" },
   { id: 5, name: "Tripura" },
-  // { id: 6, name: "Delhi" },
+  { id: 6, name: "Delhi" },
   // { id: 7, name: "Punjab" },
 ];
 const donor = [
