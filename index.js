@@ -414,6 +414,7 @@ const permissions = {
   permissionsView: ["kirithiv@navgurukul.org", "vaibhavmagar@navgurukul.org"],
   updateStage: [
     "anushkag20@navgurukul.org",
+    "nidhi@navgurukul.org",
     "manisha@navgurukul.org",
     "saquib@navgurukul.org",
     "swanand@navgurukul.org",
