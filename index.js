@@ -490,6 +490,7 @@ const permissions = {
     "kajalk20@navgurukul.org",
     "anoj@navgurukul.org",
     "kartik@navgurukul.org",
+    "satish21@navgurukul.org"
   ],
 
   updateStudentName: [
