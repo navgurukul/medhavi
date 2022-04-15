@@ -506,6 +506,7 @@ const permissions = {
   ],
 
   updateStudentName: [
+    "kittiy@navgurukul.org",
     "komal@navgurukul.org",
     "shreshta20@navgurukul.org",
     "kumar@navgurukul.org",
@@ -535,6 +536,7 @@ const permissions = {
     "nitesh@navgurukul.org",
   ],
   addOrUpdateContact: [
+    "kittiy@navgurukul.org",
     "rahit@navgurukul.org",
     "nilam@navgurukul.org",
     "nitesh@navgurukul.org",
