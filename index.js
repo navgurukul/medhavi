@@ -413,6 +413,7 @@ const feedbackableStages = Object.keys(feedbackableStagesData);
 const permissions = {
   permissionsView: ["kirithiv@navgurukul.org", "vaibhavmagar@navgurukul.org"],
   updateStage: [
+    "reena@navgurukul.org",
     "tarun20@navgurukul.org",
     "vishnusharma@navgurukul.org",
     "amarjeetg22@navgurukul.org",
