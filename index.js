@@ -572,6 +572,7 @@ module.exports = {
     jain: 4,
     christian: 5,
     others: 6,
+    buddhism:7,
   },
   qualification: {
     lessThan10th: 1,
