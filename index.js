@@ -413,6 +413,28 @@ const feedbackableStages = Object.keys(feedbackableStagesData);
 const permissions = {
   permissionsView: ["kirithiv@navgurukul.org", "vaibhavmagar@navgurukul.org"],
   updateStage: [
+    "rupalisingh@navgurukul.org",
+    "sapnapandey20@navgurukul.org",
+    "rupakumari20@navgurukul.org",
+    "reena@navgurukul.org",
+    "tarun20@navgurukul.org",
+    "vishnusharma@navgurukul.org",
+    "amarjeetg22@navgurukul.org",
+    "jyotisharma22@navgukul.org",
+    "anjalit22@navgurkul.org",
+    "kankana@navgutukul.org",
+    "rajalakshmi@navgurukul.org",
+    "ishita@navgurukul.org",
+    "anzum20@navgurukul.org",
+    "chuningliu21@navgurukul.org",
+    "vijay@navgurukul.org",
+    "vishnu@navgurukul.org",
+    "samyukta@navgurukul.org",
+    "tahniyatnisar21@navgurukul.org",
+    "shreshta@navgurukul.org",
+    "anarkat@navgurukul.org",
+    "pihu20@navgurukul.org",
+    "richa@navgurukul.org",
     "admission@navgurukul.org",
     "anushkag20@navgurukul.org",
     "nidhi@navgurukul.org",
@@ -491,10 +513,12 @@ const permissions = {
     "kajalk20@navgurukul.org",
     "anoj@navgurukul.org",
     "kartik@navgurukul.org",
-    "satish21@navgurukul.org"
+    "satish21@navgurukul.org",
+    "pratik18@navgurukul.org"
   ],
 
   updateStudentName: [
+    "kittiy@navgurukul.org",
     "komal@navgurukul.org",
     "shreshta20@navgurukul.org",
     "kumar@navgurukul.org",
@@ -524,6 +548,7 @@ const permissions = {
     "nitesh@navgurukul.org",
   ],
   addOrUpdateContact: [
+    "kittiy@navgurukul.org",
     "rahit@navgurukul.org",
     "nilam@navgurukul.org",
     "nitesh@navgurukul.org",
