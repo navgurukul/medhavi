@@ -612,6 +612,7 @@ module.exports = {
     bca: 9,
     bsc: 10,
     bba: 11,
+    iti:12,
   },
   qualificationKeys: {
     1: "Less than 10th",
@@ -624,6 +625,7 @@ module.exports = {
     8: "BCA",
     9: "B.Sc.",
     10: "BBA",
+    12:"ITI",
   },
   currentStatus: {
     nothing: 1,
