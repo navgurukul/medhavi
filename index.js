@@ -1,6 +1,7 @@
 const allStages = {
   // related to the mcq test
   enrolmentKeyGenerated: "Enrolment Key Generated",
+  createdStudentWithoutExam: "Created Student Without Exam", 
   basicDetailsEntered: "Basic Details Entered",
   // english interviews
   pendingEnglishInterview: "English Interview Pending (2nd Round)",
