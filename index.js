@@ -131,7 +131,7 @@ const campus = [
   { id: 4, name: "Sarjapura" },
   { id: 5, name: "Tripura" },
   { id: 6, name: "Delhi" },
-  // { id: 7, name: "Punjab" },
+  { id: 7, name: "Amravati" },
 ];
 const donor = [
   { id: 1, name: "Accenture C1" },
@@ -612,7 +612,7 @@ module.exports = {
     bca: 9,
     bsc: 10,
     bba: 11,
-    iti:12,
+    iti: 12,
   },
   qualificationKeys: {
     1: "Less than 10th",
@@ -621,11 +621,12 @@ module.exports = {
     4: "Graduate",
     5: "B.A.",
     6: "B.Com.",
-    7: "M.Sc.",
-    8: "BCA",
-    9: "B.Sc.",
-    10: "BBA",
-    12:"ITI",
+    7: "M.Com",
+    8: "M.Sc.",
+    9: "BCA",
+    10: "B.Sc.",
+    11: "BBA",
+    12: 'ITI',
   },
   currentStatus: {
     nothing: 1,
