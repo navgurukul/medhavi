@@ -132,6 +132,8 @@ const campus = [
   { id: 5, name: "Tripura" },
   { id: 6, name: "Delhi" },
   { id: 7, name: "Amravati" },
+  { id:8, name: "Jashpur" },
+   
 ];
 const donor = [
   { id: 1, name: "Accenture C1" },
