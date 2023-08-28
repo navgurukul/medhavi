@@ -133,10 +133,10 @@ const campus = [
   { id: 6, name: "Delhi" },
   { id: 7, name: "Amravati" },
   { id: 8, name: "Jashpur" },
-  { id: 9, name: "Udaipur" }
+  { id: 9, name: "Udaipur" },
+  { id: 10, name: "Dantewada" },
+  { id: 11, name: "Raipur" }
 
-  { id:8, name: "Jashpur" },
-  { id:9, name: "Udaipur"},
   
 ];
 const donor = [
